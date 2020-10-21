@@ -125,7 +125,9 @@ p3{
 font-family: Helvetica, Arial, sans-serif;
 font-size: 12px;
 }
-
+.graphic{
+  padding-bottom: 30px;
+}
 p4{
   font-family: Helvetica, Arial, sans-serif;
 font-size: 12px;
