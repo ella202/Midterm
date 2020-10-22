@@ -10,9 +10,11 @@ body{
 
 .mast{
   font-family: "Advent Pro" , sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   padding-bottom: 25px;
 background-color: #8cd9b3;
+font-weight: 600;
+padding-top:15px
 
 }
 
@@ -23,18 +25,16 @@ font-weight: bold;
 padding-top: 0px;
 }
 
-h2{
-  font-family: "Noto Serif KR", serif;
-  font-weight: normal;
+
+
+.block1{
+  font-style: italic;
+  font-weight: bold;
   font-size: 20px;
+  text-align: center;
+  color: #ffb3b3;
 }
-.block1 {
-font-style: italic;
-font-weight: bold;
-font-size: 20px;
-text-align: center;
-color: #ffb3b3;
-}
+
 
 .block2{
   font-style: italic;
@@ -49,6 +49,7 @@ font-family: "Noto Serif KR", serif;
 font-weight:normal;
 font-size: 15px;
 padding-bottom: 30px;
+padding-top: 15px
 }
  .photo1{
    align-content: center;
@@ -93,7 +94,6 @@ padding-bottom: 5;
    align-content: center;
    background-color: #ffb3b3;
    padding-bottom: 10px;
-   background-color: #ffb3b3;
    padding-left:15px;
    margin-right: 20px;
    padding-top: 20;
@@ -153,12 +153,12 @@ padding-bottom: 10px;
 background-color: #6f94dc;
 }
 
-p2{
+.p2{
 font-family: Helvetica, Arial, sans-serif;
 font-size: 12px;
 }
 
-p3{
+.p3{
 font-family: Helvetica, Arial, sans-serif;
 font-size: 12px;
 }
@@ -167,13 +167,26 @@ font-size: 12px;
   padding-top: 20px;
 
 }
-p4{
+.p4{
   font-family: Helvetica, Arial, sans-serif;
 font-size: 12px;
 }
 
+.p5{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+
+}
+.p6{
+  font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;}
+
+.p7{
+  font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;}
+
 #readmore{
 margin-top: 20px;
 font-family: Helvetica, Arial, sans-serif;
-font-size: 20px;
+font-size: 20px
 }
