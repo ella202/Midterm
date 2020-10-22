@@ -3,11 +3,16 @@
   max-width:900px;
   margin: 0 auto;
 }
+/* The web page might have a gradient look*/
+body{
+  background-color: #e6e6ff;
+}
 
 .mast{
   font-family: "Advent Pro" , sans-serif;
   font-size: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
+background-color: #8cd9b3;
 
 }
 
@@ -23,16 +28,33 @@ h2{
   font-weight: normal;
   font-size: 20px;
 }
+.block1 {
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+color: #ffb3b3;
+}
+
+.block2{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #6f94dc;
+}
 
 #byline{
 font-family: "Noto Serif KR", serif;
 font-weight:normal;
 font-size: 15px;
+padding-bottom: 30px;
 }
  .photo1{
    align-content: center;
 padding-bottom: 5;
    padding-top: 25px;
+   background-color: #b3d9ff;
  }
  .caption1{
    font-family: Helvetica, Arial, sans-serif;
@@ -41,6 +63,7 @@ padding-bottom: 5;
    font-style:bold;
    font-size: 12px;
    margin-bottom: 25px;
+   background-color: #b3d9ff;
  }
  .column {
    float: left;
@@ -59,22 +82,29 @@ padding-bottom: 5;
     font-size: 20px;
 }
 
-p1{
+.p1{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+  padding-bottom: 20px;
+  padding-top: 15px;
 }
 
 .photo2{
    align-content: center;
-   padding-bottom: 5px;
-   padding-top: 15;
+   background-color: #ffb3b3;
+   padding-bottom: 10px;
+   background-color: #ffb3b3;
+   padding-left:15px;
+   margin-right: 20px;
+   padding-top: 20;
 }
 .caption2{
   font-family: Helvetica, Arial, sans-serif;
-
-  margin-top: 0 px;
+background-color: #ffb3b3;
+  padding-top: 0 px;
   font-style:bold;
   font-size: 12px;
+  margin-right: 20px;
 
 }
 
@@ -82,6 +112,10 @@ p1{
 
 .photo3{
   padding-bottom: 10px;
+  background-color: #ffb3b3;
+  padding-left:15px;
+  margin-right:20px;
+  padding-top: 20;
 }
 
 .caption3{
@@ -104,8 +138,8 @@ p1{
 
 .photo4{
 padding-bottom: 5px;
-padding top: 20px;
-
+padding-top: 20px;
+background-color: #6f94dc;
 }
 
 .caption4{
@@ -115,7 +149,8 @@ padding top: 20px;
   font-style:bold;
   font-size: 12px;
   margin-bottom: 25px;
-
+padding-bottom: 10px;
+background-color: #6f94dc;
 }
 
 p2{
@@ -129,10 +164,16 @@ font-size: 12px;
 }
 .graphic{
   padding-bottom: 30px;
+  padding-top: 20px;
+
 }
 p4{
   font-family: Helvetica, Arial, sans-serif;
 font-size: 12px;
+}
 
-
+#readmore{
+margin-top: 20px;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 20px;
 }
